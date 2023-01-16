@@ -16,4 +16,5 @@ def browser(request):
 
     yield browser
     print("\nquit browser..")
+    #input()
     browser.quit()
