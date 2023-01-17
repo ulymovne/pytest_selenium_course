@@ -13,3 +13,4 @@ class BasketPageLocators():
     PRODUCT_MESSAGE = (By.CSS_SELECTOR, "#messages > div:nth-child(1) .alertinner strong")
     COST_BASKET = (By.CSS_SELECTOR, '.alert-info .alertinner strong')
     PRODUCT_PRICE = (By.CSS_SELECTOR, '.product_main .price_color')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#messages > div:nth-child(1)')
