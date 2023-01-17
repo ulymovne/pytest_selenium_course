@@ -22,6 +22,7 @@ class ProductPage(BasePage):
 
     def get_product_name(self):
         return self.browser.find_element(*BasketPageLocators.PRODUCT_NAME).text
+
     def get_product_price(self):
         return  self.browser.find_element(*BasketPageLocators.PRODUCT_PRICE).text
 
