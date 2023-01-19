@@ -8,7 +8,7 @@ class ProductPage(BasePage):
     def add_product_to_basket(self):
         login_link = self.browser.find_element(*BasketPageLocators.ADD_TO_BASKET_FORM)
         login_link.click()
-        #self.solve_quiz_and_get_code()
+        self.solve_quiz_and_get_code()
 
     def should_be_guest_message_cost_basket(self, product_price):
         cost_basket = self.browser.find_element(*BasketPageLocators.COST_BASKET).text
